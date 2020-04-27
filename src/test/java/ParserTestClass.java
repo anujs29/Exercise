@@ -1,9 +1,8 @@
 import com.parser.exercise.TextFileLogParser;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.junit.platform.runner.JUnitPlatform;
 import org.junit.runner.RunWith;
 import org.springframework.util.Assert;
-import org.springframework.beans.factory.annotation.Autowired;
 
 @RunWith(JUnitPlatform.class)
 public class ParserTestClass {
