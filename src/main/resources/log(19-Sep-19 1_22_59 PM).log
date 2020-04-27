@@ -1,0 +1,25 @@
+19-Sep-19 1:22:59 PM	Info					Error library: Loaded error library successfully.			0	
+19-Sep-19 1:22:59 PM	Info					System Startup			0	
+19-Sep-19 2:42:26 PM	Info	F-Block 27		Barcode reader read F19G08_MG0640005 on the
+ south side of the plate			1
+19-Sep-19 2:42:26 PM	Info				Location = stage, Side = South, Barcode = F19G08_MG0640005			1
+19-Sep-19 2:42:27 PM	Event		Completed: Scan bar code	F Block Clean-up
+19-Sep-19 2:42:27 PM	Script					F19G08_MG0640005 is invalid ? false			1	
+19-Sep-19 2:42:27 PM	Script					F19G08_MG0640005 is invalid ? false			1	
+19-Sep-19 2:42:27 PM	Script					Source 27; create barcode: E19G08_MG0640005 for Dest plate. Even plate: false.			1	
+19-Sep-19 2:42:27 PM	Event			F-Block 27	4	JavaScript	F Block Clean-up		1	
+19-Sep-19 2:42:27 PM	Event			F-Block 27	4	Completed: JavaScript	F Block Clean-up		1	
+19-Sep-19 2:42:27 PM	Script					script:Value entered for "Device to use" is out of range			1	
+19-Sep-19 2:42:27 PM	Script					script:Value entered for "Location to use" is out of range			1	
+19-Sep-19 2:42:28 PM	Event		F-Block 28		Move plate 
+19-Sep-19 2:50:59 PM	Info					Printing -->[South, field 1: "E19G05_MG0430008", field 2: "E19G05_MG0430008"]			0	
+19-Sep-19 2:50:59 PM	Event		F-Block 29		Barcode reader  read F19G08_MG0650001 on the south side of the plate			1	
+19-Sep-19 2:51:26 PM	Info					Location = stage, Side = South, Barcode = F19G08_MG0650001			1	
+19-Sep-19 2:51:26 PM	Event		stage	F-Block 29	2	Completed: Scan bar code	F Block Clean-up		1	
+19-Sep-19 2:51:26 PM	Script					F19G08_MG0650001 is invalid ? false			1	
+19-Sep-19 2:51:26 PM	Script					F19G08_MG0650001 is invalid ? false			1	
+19-Sep-19 2:51:26 PM	Script					Source 29; create barcode: E19G08_MG0650001 for Dest plate. Even plate: false.			1	
+19-Sep-19 2:51:26 PM	Event			F-Block 29	4	JavaScript	F Block Clean-up		1	
+19-Sep-19 2:51:26 PM	Event			F-Block 29	4	Completed: JavaScript	F Block Clean-up		1	
+19-Sep-19 2:51:26 PM	Script					script:Value entered for "Device to use" is out of range			1	
+19-Sep-19 2:51:26 PM	Script					script:Value entered for "Location to use" is out of range			1	

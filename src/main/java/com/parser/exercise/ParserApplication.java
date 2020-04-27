@@ -7,6 +7,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ParserApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ParserApplication.class, args);
+        //SpringApplication.run(ParserApplication.class, args);
+
+        /**
+         * Use this "**" pattern to get object of concrete class by passing an information such as type.
+         */
+
     }
 }
