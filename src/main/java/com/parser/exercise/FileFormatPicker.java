@@ -2,13 +2,19 @@ package com.parser.exercise;
 
 public class FileFormatPicker {
 
-    public FileFormat getFormat(String fileFormat){
-        if(fileFormat == null){
-            return null;
+    public static FileFormat getFormat(FileFormatType fileFormatType) {
+        FileFormat fileFormat = null;
+        switch (fileFormatType) {
+            case LOG:
+                fileFormat = new LogFile();
+                break;
+            case CSV:
+                fileFormat = new CsvFile();
+                break;
+            case XML:
+                fileFormat = new XmlFile();
+                break;
         }
-        if(fileFormat.equalsIgnoreCase("LOG")){
-            return new LogFile();
-        }
-        return null;
+        return fileFormat;
     }
 }
