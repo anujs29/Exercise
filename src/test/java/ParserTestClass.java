@@ -8,7 +8,7 @@ public class ParserTestClass {
      * Look for a simple 1 word text in a string
      */
     @Test
-    private void testParserFromStringCharacters(){
+    public void testParserFromStringCharacters(){
         String logText = " Random Text " +
                 "too look for   a special text ;" +
                 "in a file with tabs and new line characters ";
@@ -23,17 +23,20 @@ public class ParserTestClass {
 
 
     /**
+     *
+     * Exercise 1
+     *
      * Look for a simple 1 word text in a file : log(19-Sep-19 1_22_59 PM).log
-     * Also parse the date and time of the event
+     *
+     * 1) Determine whether the ID E19G05_MG0430008 shows up in this file
+     *
+     * 2) Parse the date and time of the first event where E19G05_MG0430008 is mentioned
+     *
      */
     @Test
-    private void testParserFromTextLogFile() {
+    public void testParserFromTextLogFile() {
 
     }
-
-
-
-
 
 
 }
